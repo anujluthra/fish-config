@@ -1,3 +1,9 @@
+
+setenv EDITOR "subl -w"
+
+alias edit="subl"
+alias editfish="subl ~/.config/fish/."
+
 alias gup="git pull --rebase"
 alias gcm="git checkout master"
 
@@ -17,6 +23,3 @@ alias migrate='be rake db:migrate parallel:prepare[8]; RAILS_ENV=cucumber rake d
 alias gcm='git checkout master'
 alias gu='git up'
 alias gco='git checkout -b'
-
-
-setenv EDITOR "subl -w"
